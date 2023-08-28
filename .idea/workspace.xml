@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d119ba37-73fa-4d1d-a7a1-843e812a3bfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TravelPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TravelPackageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/activity/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/destination/Destination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerActivitesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerActivities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerTypeGold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerTypePremium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerTypeStandard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel-agency-management.iml" afterDir="false" />
+    <list default="true" id="d119ba37-73fa-4d1d-a7a1-843e812a3bfb" name="Changes" comment="First Commit -">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerActivitesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nymble/travelAgency/passenger/PassengerActivitiesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +56,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.PassengerActivitiesTest.testSignUpForActivityInsufficientFunds">
+    <configuration name="PassengerActivitiesTest.testSignUpForActivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="travel-agency-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nymble.travelAgency.passenger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nymble.travelAgency.passenger" />
+      <option name="MAIN_CLASS_NAME" value="com.nymble.travelAgency.passenger.PassengerActivitiesTest" />
+      <option name="METHOD_NAME" value="testSignUpForActivity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerActivitiesTest.testSignUpForActivityInsufficientFunds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="travel-agency-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nymble.travelAgency.passenger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nymble.travelAgency.passenger" />
+      <option name="MAIN_CLASS_NAME" value="com.nymble.travelAgency.passenger.PassengerActivitiesTest" />
+      <option name="METHOD_NAME" value="testSignUpForActivityInsufficientFunds" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,10 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassengerActivitiesTest.testSignUpForActivityInsufficientFunds" />
+        <item itemvalue="JUnit.PassengerActivitiesTest.testSignUpForActivity" />
         <item itemvalue="JUnit.TravelPackageTest.testGoldPassengerSignUpWithInsufficientFunds" />
         <item itemvalue="JUnit.TravelPackageTest.testAddDestinationToItinerary" />
         <item itemvalue="JUnit.TravelPackageTest.testAddPassenger" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -132,12 +140,25 @@
       <workItem from="1693156286481" duration="4102000" />
       <workItem from="1693188912340" duration="7638000" />
       <workItem from="1693206970351" duration="84000" />
-      <workItem from="1693207375935" duration="3854000" />
+      <workItem from="1693207375935" duration="4494000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit -">
+      <option name="closed" value="true" />
+      <created>1693211750555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693211750555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit -" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit -" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,7 +1,6 @@
 import com.nymble.travelAgency.activity.Activity;
 import com.nymble.travelAgency.destination.Destination;
 import com.nymble.travelAgency.passenger.Passenger;
-import com.nymble.travelAgency.passenger.PassengerActivities;
 import com.nymble.travelAgency.passenger.PassengerTypeEnum;
 
 import java.util.ArrayList;

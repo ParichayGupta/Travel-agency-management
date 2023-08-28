@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PassengerActivitesTest {
+public class PassengerActivitiesTest {
 
     @Test
     void testSignUpForActivity() {
@@ -17,9 +17,9 @@ public class PassengerActivitesTest {
         Passenger pax1 = new Passenger("Parichay", 101, 100, PassengerTypeEnum.STANDARD);
 
         // Test passenger sign up for activity
-        boolean signUpResult = pax1.signUpForActivity(frozenLakeSkiing);
+        boolean signedUp = pax1.signUpForActivity(frozenLakeSkiing);
 
-        assertTrue(signUpResult);
+        assertTrue(signedUp);
         assertEquals(1, pax1.getActivitiesEnrolled().size());
         assertEquals(50, pax1.getBalance());
     }
@@ -33,9 +33,9 @@ public class PassengerActivitesTest {
         Passenger pax1 = new Passenger("Ronit", 101, 30, PassengerTypeEnum.STANDARD);
 
         // Test passenger sign up for activity with insufficient funds
-        boolean signUpResult = pax1.signUpForActivity(trekking);
+        boolean signedUp = pax1.signUpForActivity(trekking);
 
-        assertFalse(signUpResult);
+        assertFalse(signedUp);
         assertEquals(0, pax1.getActivitiesEnrolled().size());
         assertEquals(30, pax1.getBalance());
     }
@@ -49,9 +49,9 @@ public class PassengerActivitesTest {
         Passenger pax1 = new Passenger("Ronit", 101, 100, PassengerTypeEnum.STANDARD);
 
         // Test passenger sign up for activity with full capacity
-        boolean signUpResult = pax1.signUpForActivity(reachSummit);
+        boolean signedUp = pax1.signUpForActivity(reachSummit);
 
-        assertFalse(signUpResult);
+        assertFalse(signedUp);
         assertEquals(0, pax1.getActivitiesEnrolled().size());
         assertEquals(100, pax1.getBalance());
     }
@@ -65,9 +65,9 @@ public class PassengerActivitesTest {
         Passenger pax1 = new Passenger("Ram", 102, 100, PassengerTypeEnum.GOLD);
 
         // Test gold passenger sign up for activity with discount
-        boolean signUpResult = pax1.signUpForActivity(reachSummit);
+        boolean signedUp = pax1.signUpForActivity(reachSummit);
 
-        assertTrue(signUpResult);
+        assertTrue(signedUp);
         assertEquals(1, pax1.getActivitiesEnrolled().size());
         assertEquals(55, pax1.getBalance());
     }
